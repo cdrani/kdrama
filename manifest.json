@@ -26,5 +26,11 @@
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  }
+  },
+  "permissions": [
+    "https://goplay.anontpp.com/",
+    "https://www.reddit.com/r/KDRAMA/*",
+    "activeTab",
+    "tabs"
+  ]
 }
