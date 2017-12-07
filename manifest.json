@@ -8,5 +8,9 @@
     "32": "images/corvo_32.png",
     "48": "images/corvo_48.png",
     "128": "images/corvo_128.png"
+  },
+  "browser_action": {
+    "default_title": "keyrama",
+    "default_icon": "images/corvo_32.png"
   }
 }
