@@ -12,5 +12,15 @@
   "browser_action": {
     "default_title": "keyrama",
     "default_icon": "images/corvo_32.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://goplay.anontpp.com/",
+        "https://www.reddit.com/r/KDRAMA/*"
+      ],
+      "js": ["content.js", "content2.js"],
+      "all_frames": false
+    }
+  ]
 }
