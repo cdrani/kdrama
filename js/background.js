@@ -18,5 +18,9 @@ function onTabUpdated(tabId, changeInfo, tab) {
     if (changeInfo.status === 'complete') {
       chrome.tabs.executeScript(null, { file: 'link.js' })
     }
+
+    if (tab.title === 'Token Generation - Korean Shows HD Streaming') {
+      chrome.tabs.executeScript(null, { file: 'gen_token.js' })
+    }
   })
 }
