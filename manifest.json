@@ -22,5 +22,9 @@
       "js": ["content.js", "content2.js"],
       "all_frames": false
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
