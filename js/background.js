@@ -15,6 +15,8 @@ function updateTab(tab) {
 
 function onTabUpdated(tabId, changeInfo, tab) {
   chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-    // console.log('working')
+    if (changeInfo.status === 'complete') {
+      chrome.tabs.executeScript(null, { file: 'link.js' })
+    }
   })
 }
