@@ -12,3 +12,9 @@ function updateTab(tab) {
     onTabUpdated(tab.id, { status: tab.status }, tab)
   })
 }
+
+function onTabUpdated(tabId, changeInfo, tab) {
+  chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+    // console.log('working')
+  })
+}
