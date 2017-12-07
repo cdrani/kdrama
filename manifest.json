@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "keyrama",
+  "author": "cdrainxv",
+  "version": "0.1.0",
+  "icons": {
+    "16": "images/corvo_16.png",
+    "32": "images/corvo_32.png",
+    "48": "images/corvo_48.png",
+    "128": "images/corvo_128.png"
+  }
+}
