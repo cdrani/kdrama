@@ -1,4 +1,4 @@
 if (document.title === 'Token Generation - Korean Shows HD Streaming') {
   var genButton = document.querySelector('button')
-  gentButton.click()
+  genButton.click()
 }
