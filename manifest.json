@@ -19,12 +19,12 @@
         "https://goplay.anontpp.com/",
         "https://www.reddit.com/r/KDRAMA/*"
       ],
-      "js": ["content.js", "content2.js"],
+      "js": ["js/link.js", "js/gen_token.js"],
       "all_frames": false
     }
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "permissions": [
