@@ -1,8 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "keyrama",
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "default_locale": "en",
   "author": "cdrainxv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icons": {
     "16": "images/corvo_16.png",
     "32": "images/corvo_32.png",
@@ -10,8 +12,8 @@
     "128": "images/corvo_128.png"
   },
   "browser_action": {
-    "default_title": "keyrama",
-    "default_icon": "images/corvo_32.png"
+    "default_title": "K-DRAMA",
+    "default_icon": "images/corvo_128.png"
   },
   "content_scripts": [
     {
@@ -30,7 +32,6 @@
   "permissions": [
     "https://goplay.anontpp.com/",
     "https://www.reddit.com/r/KDRAMA/*",
-    "activeTab",
     "tabs"
   ]
 }

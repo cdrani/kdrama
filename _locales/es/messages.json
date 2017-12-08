@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "K-DRAMA",
+    "description": "Generar Nuevo Token"
+  },
+  "extDesc": {
+    "message": "¡Más Drama, Más Rápido!",
+    "description":
+      "Omita la página Acceso denegado y genere automáticamente un nuevo token de acceso."
+  }
+}

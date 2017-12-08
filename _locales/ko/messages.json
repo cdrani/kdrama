@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "K-DRAMA",
+    "description": "새 토큰 생성"
+  },
+  "extDescription": {
+    "message": "더 많은 드라마, 더 빨리!",
+    "description":
+      "액세스 거부 페이지를 무시하고 자동으로 새 액세스 토큰을 생성하십시오."
+  }
+}

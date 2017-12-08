@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "K-DRAMA",
+    "description": "Générer Un Nouveau Jeton"
+  },
+  "extDesc": {
+    "message": "Plus De Drame, Plus Vite!",
+    "description":
+      "Contournez la page Accès refusé et générez automatiquement un nouveau jeton d'accès."
+  }
+}
