@@ -21,8 +21,7 @@
         "https://goplay.anontpp.com/",
         "https://www.reddit.com/r/KDRAMA/*"
       ],
-      "js": ["js/link.js", "js/gen_token.js"],
-      "all_frames": false
+      "js": ["js/link.js", "js/gen_token.js"]
     }
   ],
   "background": {
