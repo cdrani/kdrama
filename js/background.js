@@ -21,7 +21,7 @@ function onTabUpdated(tabId, changeInfo, tab) {
       chrome.tabs.executeScript(null, { file: 'js/link.js' })
     }
 
-    if (tab.title === 'Token Generation - Korean Shows HD Streaming') {
+    if (tab.title === 'Token Generation - GoPlay Streaming') {
       chrome.tabs.executeScript(null, { file: 'js/gen_token.js' })
     }
   })

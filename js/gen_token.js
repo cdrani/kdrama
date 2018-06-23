@@ -1,4 +1,4 @@
-if (document.title === 'Token Generation - Korean Shows HD Streaming') {
+if (document.title === 'Token Generation - GoPlay Streaming') {
   var genButton = document.querySelector('button')
   genButton.click()
 }

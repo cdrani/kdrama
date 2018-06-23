@@ -1,2 +1,2 @@
-var link = document.querySelector('a[href="https://kdrama.anontpp.com/"]')
+var link = document.querySelector('a[href="https://goplay.anontpp.com/"]')
 link.click()
